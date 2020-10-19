@@ -23,8 +23,8 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: #d6caca;
-  border-bottom: 2px solid #7c7272;
+  background-color: #e7dfdf;
+  border-bottom: 2px solid #b3a7a7;
 }
 
 .nav-logo {
@@ -38,6 +38,7 @@ body {
 }
 
 #nav-bar > ul > li {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 3rem;
   text-align: center;
   line-height: 40px;
