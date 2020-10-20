@@ -135,3 +135,37 @@ iframe[src*=youtube] {
   height: 400px;
 }
 
+
+      /* FORM EMAIL */
+
+
+.email-div > label {
+  font-size: 2rem;
+  line-height: 3;
+}
+
+#email {
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 5px;
+  width: 85%;
+  max-width: 85%;
+  height: 30px;
+  border: 1px solid #8b8686;
+}
+
+#email::placeholder {
+  font-size: 1.5rem;
+}
+
+#submit {
+  margin-top: 10px;
+  width: 150px;
+  height: 30px;
+
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+
