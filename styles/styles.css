@@ -46,6 +46,11 @@ body {
   font-weight: 300;
 }
 
+#nav-bar > ul > li > a {
+  text-decoration: none;
+  color: #000000;
+}
+
       /* MAIN */
 
 #main {
@@ -319,6 +324,13 @@ iframe[src*=youtube] {
 .ft-legal-list li:nth-last-child(2) {
   flex: 1; 
 }
+
+.ft-legal-list li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+
 
 
 
