@@ -9,7 +9,6 @@ html {
 
 body {
   background-color: #c9c9c9;
-  height: 3000px;
 }
 
 
@@ -168,4 +167,128 @@ iframe[src*=youtube] {
   font-weight: 700;
 }
 
+      /* AUTONOMOS */
 
+.container-plans {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.cont-autonomos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 1px solid #000000;
+  padding-bottom: 20px;
+}
+
+.cont-autonomos-header {
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #b8b8b8;
+  top: 0;
+  padding: 20px 0;
+}
+
+.cont-autonomos-main {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  line-height: 2;
+}
+
+.list-autonomos > li:first-of-type {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button-autonomos {
+  height: 50px;
+  font-weight: 600;
+  border: none;
+  background-color: #630f0f;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+
+      /* SRL */
+
+.cont-srl {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 1px solid #000000;
+  padding-bottom: 20px;
+}
+
+.cont-srl-header {
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #b8b8b8;
+  top: 0;
+  padding: 20px 0;
+}
+
+.cont-srl-main {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  line-height: 2;
+}
+
+.list-srl > li:first-of-type {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button-srl {
+  height: 50px;
+  font-weight: 600;
+  border: none;
+  background-color: #630f0f;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+
+
+      /* NEGOCIO */
+
+.cont-negocio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  border: 1px solid #000000;
+  padding-bottom: 20px;
+}
+
+.cont-negocio-header {
+  font-size: 3rem;
+  font-weight: 900;
+  background-color: #b8b8b8;
+  top: 0;
+  padding: 20px 0;
+}
+
+.cont-negocio-main {
+  font-size: 1.5rem;
+  margin: 10px auto;
+  line-height: 2;
+}
+
+.list-negocio > li:first-of-type {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.button-negocio {
+  height: 50px;
+  font-weight: 600;
+  border: none;
+  background-color: #630f0f;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 0 20px;
+}
