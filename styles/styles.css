@@ -373,6 +373,10 @@ iframe[src*=youtube] {
     font-weight: 400;
   }
 
+  #nav-bar-list li a:hover{
+    text-decoration: underline;
+  }
+
         /* MAIN */
   
   #main {
@@ -394,6 +398,7 @@ iframe[src*=youtube] {
   display: flex;
   margin: auto 500px;
   text-align: start;
+  justify-content: center;
 }
 
 
@@ -508,8 +513,15 @@ iframe[src*=youtube] {
 .container-plans {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin: 100px 100px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.cont-sub-planes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 2000px;
 }
 
 .cont-autonomos {
@@ -522,6 +534,12 @@ iframe[src*=youtube] {
 
 .cont-negocio {
   width: 500px;
+}
+
+.button-autonomos:hover,
+.button-srl:hover, 
+.button-negocio:hover  {
+  background-color: #852727;
 }
 
 
